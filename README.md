@@ -40,7 +40,7 @@ It centralizes employee data, candidates data, application data and automates re
 - Vercel Serveless Functions
 
 ### Database
-- MySQL *(update based on your project)* (Aiven Free Tier)
+- MySQL (Aiven Free Tier)
 
 ### Other Tools
 - Git & GitHub
@@ -57,7 +57,7 @@ It centralizes employee data, candidates data, application data and automates re
 
 - Node.js >= 16
 - npm
-- Database MySQL (Aiven Free Tier is acceptable)
+- Database MySQL (Aiven Free Tier)
 
 ---
 
