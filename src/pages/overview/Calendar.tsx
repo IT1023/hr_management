@@ -14,7 +14,7 @@ import "dayjs/locale/ja";
 
 const CalendarWrapper = styled(Box)(({ theme }) => ({
   width: "100%",
-  height: "300px",
+  minHeight: "300px",
   alignSelf: "center",
   backgroundColor: theme.palette.background.paper,
   borderRadius: "12px",

@@ -55,19 +55,17 @@ const Email = styled(Typography)({
 });
 
 export default function UserProfile() {
-  const { firstName, lastName, email, profilePic } = useContext(AuthContext)
-    .user ?? {
+  const { firstName, lastName, email } = useContext(AuthContext).user ?? {
     firstName: "John",
     lastName: "Doe",
     email: "john.doe@email.com",
-    profilePic: "https://thispersondoesnotexist.com/",
   };
   const { t } = useTranslation("a11y");
 
   return (
     <UserProfileWrapper>
       <PictureWrapper>
-        <Picture src={profilePic ?? ""} alt={`${t("profile_label")}`} />
+        <Picture src={"/img/profile_pic.webp"} alt={`${t("profile_label")}`} />
       </PictureWrapper>
       <Info>
         <Name variant="subtitle1">{`${firstName} ${lastName}`}</Name>

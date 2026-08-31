@@ -14,7 +14,7 @@ const StatsWrapper = styled(Box)({
   gap: "10px",
   overflowY: "scroll",
   scrollbarWidth: "none",
-  maxHeight: "300px",
+  maxHeight: "450px",
   padding: "10px",
 });
 

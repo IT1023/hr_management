@@ -25,11 +25,11 @@ const Informations = styled(Box)(({ theme }) => ({
 }));
 
 const CandidateWrapper = styled(Box)(({ theme }) => ({
-  minHeight: "400px",
   flex: 1,
   overflow: "hidden",
   borderRadius: "18px",
   border: `1px solid ${theme.palette.divider}`,
+  display: "flex",
 }));
 
 const DepartmentWrapper = styled(Box)({

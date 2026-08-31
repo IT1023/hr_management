@@ -17,7 +17,7 @@ import Reload from "../../../shared/ui/Reload";
 const RecentWrapper = styled(Box)(({ theme }) => ({
   width: "100%",
   height: "100%",
-  maxHeight: "425px",
+  maxHeight: "475px",
   padding: "10px",
   display: "flex",
   flexDirection: "column",

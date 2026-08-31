@@ -63,7 +63,6 @@ export default function Department() {
                 return <Line key={idx} {...d} />;
               }}
               style={{
-                maxHeight: "400px",
                 scrollbarWidth: "none",
                 display: "flex",
                 flexDirection: "column",

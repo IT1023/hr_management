@@ -17,6 +17,7 @@ const headCells: string[] = [
 const TableWrapper = styled(Box)({
   width: "100%",
   flex: 1,
+  display: "flex",
 });
 
 const TableContent = styled("table")({

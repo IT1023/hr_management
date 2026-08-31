@@ -9,13 +9,13 @@ import {
 import { calculatePercentage } from "../../../shared/lib/constants";
 import Title from "../../../shared/ui/Title";
 
-const StatusWrapper = styled(Box)({
-  flex: 1,
+const StatusWrapper = styled(Box)(({ theme }) => ({
   height: "210px",
   display: "flex",
   flexDirection: "column",
   gap: "5px",
-});
+  borderBottom: `1px solid ${theme.palette.divider}`,
+}));
 
 const Employers = styled(Typography)({
   fontStyle: "italic",

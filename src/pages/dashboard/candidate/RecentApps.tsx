@@ -11,6 +11,7 @@ import type { TLanguage } from "../../../config/i18n";
 const RecentWrapper = styled(Box)({
   width: "100%",
   flex: 1,
+  maxHeight: "250px",
   padding: "10px",
   display: "flex",
   flexDirection: "column",

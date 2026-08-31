@@ -18,11 +18,11 @@ import Reload from "../../../shared/ui/Reload";
 const ActivityWrapper = styled(Box)(({ theme }) => ({
   width: "100%",
   height: "100%",
+  maxHeight: "475px",
   padding: "15px",
   display: "flex",
   flexDirection: "column",
   gap: "10px",
-  maxHeight: "425px",
   backgroundColor: theme.palette.first.main,
 }));
 

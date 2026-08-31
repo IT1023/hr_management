@@ -13,12 +13,11 @@ import type { AppDispatch } from "../../../config/store";
 import Reload from "../../../shared/ui/Reload";
 
 const CandidateWrapper = styled(Box)(({ theme }) => ({
-  width: "100%",
-  height: "fit-content",
-  maxHeight: "400px",
+  flex: "1",
   overflowX: "hidden",
   display: "flex",
   flexDirection: "column",
+
   gap: "5px",
   padding: "10px",
   [theme.breakpoints.down("lg")]: {

@@ -29,6 +29,7 @@ ChartJS.register(
 const ApplicationWrapper = styled(Box)({
   flex: 2,
   minWidth: "350px",
+  maxHeight: "450px",
   display: "flex",
   flexDirection: "column",
   gap: "10px",

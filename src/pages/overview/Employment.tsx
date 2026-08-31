@@ -8,7 +8,7 @@ import { selectOverviewEmployment } from "./overviewSlice";
 const EmployementWrapper = styled(Box)(({ theme }) => ({
   minWidth: "350px",
   flex: 1,
-  minHeight: "250px",
+  maxHeight: "350px",
   backgroundColor: theme.palette.background.paper,
   borderRadius: "12px",
   overflow: "hidden",

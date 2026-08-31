@@ -15,7 +15,7 @@ import useFetchDate from "./useFetchDate";
 
 const OverviewWrapper = styled(Box)({
   width: "100%",
-  height: "100%",
+  minHeight: "100%",
   display: "flex",
   gap: "10px",
   flexWrap: "wrap",
@@ -48,7 +48,7 @@ const Middle = styled(Box)({
   display: "flex",
   gap: "10px",
   flexWrap: "wrap",
-  minHeight: "300px",
+  maxHeight: "450px",
   flex: 1,
 });
 
