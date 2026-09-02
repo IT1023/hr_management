@@ -32,7 +32,8 @@
       "hr": "HR",
       "data": "Data Manager"
     },
-    "new": "New"
+    "new": "New",
+    "empPic": "Employee Picture"
   },
   "distributions": {
     "title": "Distribution",

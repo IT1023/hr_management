@@ -32,7 +32,8 @@
       "hr": "HR",
       "data": "Gestionnaire de données"
     },
-    "new": "New"
+    "new": "New",
+    "empPic": "Photo de l'employé"
   },
   "distributions": {
     "title": "Répartition",

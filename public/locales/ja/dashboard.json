@@ -32,7 +32,8 @@
       "hr": "人事",
       "data": "データマネージャー"
     },
-    "new": "新"
+    "new": "新",
+    "empPic": "社員の写真"
   },
   "distributions": {
     "title": "分布",

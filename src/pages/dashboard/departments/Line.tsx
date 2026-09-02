@@ -98,7 +98,7 @@ export default function Line(props: DepartmentData) {
                 isArabic={isArabic}
                 index={pictures.length - idx}
               >
-                <Image src={p} />
+                <Image src={p} alt={t("departments.empPic")} />
               </Profile>
             );
           })}

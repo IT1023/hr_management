@@ -98,7 +98,7 @@ const RecentApps = memo(() => {
             <Line
               key={c.id}
               tabIndex={0}
-              aria-describedby="applicant-name applied-position offer"
+              aria-describedby={`${c.name[lang]} ${c.position} ${c.offerState}`}
             >
               <Profile>
                 <Picture
@@ -106,16 +106,16 @@ const RecentApps = memo(() => {
                   alt={`${c.name} picture`}
                   loading="lazy"
                 />
-                <Name variant="body1" id="applicant-name">
+                <Name variant="body1" id={c.name[lang]}>
                   {c.name[lang]}
                 </Name>
               </Profile>
-              <Position variant="body1" id="applied-position">
+              <Position variant="body1" id={c.position}>
                 {t(`candidate.position.${c.position}`)}
               </Position>
               <Offer
                 isColor={offerColors(c.offerState)}
-                id="offer"
+                id={c.offerState}
                 aria-label={offerState(
                   c.offerState as OfferState,
                   i18n.language as TLanguage,

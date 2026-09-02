@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hr-management-taha.vercel.app/sitemap.xml
