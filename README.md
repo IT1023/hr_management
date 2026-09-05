@@ -28,6 +28,7 @@ It centralizes employee data, candidates data, application data and automates re
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - React.js
 - Redux
 - Mui
@@ -36,13 +37,16 @@ It centralizes employee data, candidates data, application data and automates re
 - Motion
 
 ### Backend
+
 - Node.js
 - Vercel Serveless Functions
 
 ### Database
+
 - MySQL (Aiven Free Tier)
 
 ### Other Tools
+
 - Git & GitHub
 - REST APIs
 - JWT, RBAC
@@ -77,3 +81,4 @@ npm install
 npm run dev
 
 # for backend, eithery deploy through vercel, or convert the functions to mimic an express endpoint.
+```
