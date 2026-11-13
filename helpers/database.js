@@ -16,9 +16,12 @@ export default function database() {
       password: DB_PASS,
       database: DB_NAME,
       port: Number(DB_PORT),
-      connectionLimit: 3,
-      queueLimit: 10,
-      waitForConnections: true,
+      ssl: {
+        minVersion: "TLSv1.2",
+        rejectUnauthorized: true,
+      },
+      connectionLimit: 1, // one per instance is enough in serverless
+      enableKeepAlive: true,
     });
   }
   return pool;
